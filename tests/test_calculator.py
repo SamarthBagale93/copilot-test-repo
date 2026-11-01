@@ -15,3 +15,8 @@ def test_subtracts_negative_numbers():
 
 def test_subtracts_to_negative_result():
     assert subtract(3, 7) == -4
+
+
+def test_subtracts_zero():
+    assert subtract(7, 0) == 7
+    assert subtract(0, 7) == -7
