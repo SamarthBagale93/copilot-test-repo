@@ -1,4 +1,8 @@
-from calculator import subtract
+from calculator import add, subtract
+
+
+def test_add_remains_unchanged():
+    assert add(7, 3) == 10
 
 
 def test_subtracts_positive_numbers():
